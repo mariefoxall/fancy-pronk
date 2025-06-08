@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: rgb(204, 204, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(204, 204, 255, 0.8) 0%,
+    rgba(216, 242, 147, 0.8) 100%
+  );
+  background-attachment: fixed;
+  text-wrap: wrap;
+}
+
+.bid-submit-button {
+  font-size: 1.5rem;
+  line-height: 0.8rem;
+  padding: 16px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ccccff;
+  border: 2px solid #7171f1;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  margin-right: 20px;
+}
+
+.bid-submit-button:disabled {
+  background-color: #ccccff;
+  color: #7171f1;
+  border: 2px solid #ccccff;
+  cursor: not-allowed;
+}
+
+.bid-submit-button:disabled:hover {
+  background-color: #ccccff;
+  color: #7171f1;
+  border: 2px solid #ccccff;
+  cursor: not-allowed;
+}
+
+.bid-submit-button:hover {
+  background-color: #7171f1;
+  color: white;
+  border: 2px solid #ccccff;
+}
+
+.bid-summary {
+  width: fit-content;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: #ccccff;
+}
+
+.closed-info {
+  margin-top: 10px;
+}
+
+.shop-page {
+  padding: 2rem;
+}
+
+.auction-items {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .auction-items {
+    flex-direction: column;
+  }
+}
+
+#bid-form > input {
+  font-size: 1.5rem;
+  line-height: 0.8rem;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.nickname-input > input {
+  font-size: 1.5rem;
+  line-height: 0.8rem;
+  margin-right: 20px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.nickname-input {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.form-description {
+  margin: 20px 0;
+  background-color: blanchedalmond;
+  padding: 16px;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.winner {
+  background-color: blanchedalmond;
+  padding: 8px;
+  border-radius: 4px;
+  width: fit-content;
+  font-size: 12px;
+}
+
+.bid-info {
+  display: flex;
+  gap: 12px;
+}

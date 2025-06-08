@@ -1,0 +1,5 @@
+.home-page {
+  height: calc(100vh - 114px);
+  display: flex;
+  align-items: center;
+}
