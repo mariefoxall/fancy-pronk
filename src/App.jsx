@@ -11,7 +11,7 @@ function App() {
     <Router>
       <header>
         <button className="home-button">
-          <Link to="/">
+          <Link to="/shop">
             <img src={yyyLogo} className="logo" alt="YYY logo" />
           </Link>
         </button>

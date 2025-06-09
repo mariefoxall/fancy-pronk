@@ -4,6 +4,7 @@
 
 .auction-image-page {
   width: 50vw;
+  max-width: 600px;
 }
 
 .pics-and-description {
@@ -73,6 +74,7 @@
   margin-bottom: 20px;
   padding: 8px;
   border-radius: 8px;
+  height: fit-content;
 }
 
 .nickname-input > input {
@@ -105,4 +107,9 @@
   border-radius: 4px;
   width: fit-content;
   font-size: 14px;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
 }
