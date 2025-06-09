@@ -4,9 +4,9 @@ import Shop from "./Shop/Shop";
 import Home from "./HOME/Home";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router";
 import { itemA } from "./firebase";
+import ItemPage from "./ItemPage/ItemPage";
 
 function App() {
-  console.warn(itemA);
   return (
     <Router>
       <header>
@@ -19,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/shop" element={<Shop />} />
         <Route path="/" element={<Home />} />
+        <Route path="item" element={<ItemPage />} />
       </Routes>
     </Router>
   );

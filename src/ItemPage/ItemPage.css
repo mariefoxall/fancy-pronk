@@ -1,15 +1,28 @@
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  background: rgb(204, 204, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(204, 204, 255, 0.8) 0%,
-    rgba(216, 242, 147, 0.8) 100%
-  );
-  background-attachment: fixed;
-  text-wrap: wrap;
+.auction-item-page {
+  padding: 30px;
+}
+
+.auction-image-page {
+  width: 50vw;
+}
+
+.pics-and-description {
+  display: flex;
+  gap: 16px;
+}
+.bid-info {
+  height: 50px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.bid-section {
+  margin: 20px 0;
+  padding: 16px;
+  background-color: blanchedalmond;
+  border-radius: 8px;
+  width: fit-content;
 }
 
 .bid-submit-button {
@@ -53,30 +66,7 @@ body {
   background-color: #ccccff;
 }
 
-.closed-info {
-  margin-top: 10px;
-}
-
-.shop-page {
-  padding: 2rem;
-}
-
-.auction-items {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  width: 100%;
-  flex-wrap: wrap;
-}
-
-/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .auction-items {
-    flex-direction: column;
-  }
-}
-
-#bid-form > input {
+.contact-info > input {
   font-size: 1.5rem;
   line-height: 0.8rem;
   margin-right: 20px;
@@ -98,12 +88,21 @@ body {
   display: block;
 }
 
-.form-description {
-  margin: 20px 0;
-  background-color: blanchedalmond;
-  padding: 16px;
-  border-radius: 8px;
-  width: fit-content;
+.submit-button-and-message {
+  display: flex;
+  gap: 12px;
 }
 
+.success {
+  padding: 16px;
+  background-color: blanchedalmond;
+  border-radius: 8px;
+}
 
+.bid-winner {
+  background-color: rgb(202, 180, 238);
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: fit-content;
+  font-size: 14px;
+}
