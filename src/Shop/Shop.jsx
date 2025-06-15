@@ -10,7 +10,6 @@ function Shop() {
     async function fetch() {
       try {
         const data = await getAuctionItemsWithBids();
-        console.warn("data", data);
         setAuctionItems([...data]);
       } catch {
         console.warn("oops");

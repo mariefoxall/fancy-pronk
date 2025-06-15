@@ -201,7 +201,6 @@ export const allAuctionitems = [
 
 export const getAuctionItemDBInfo = async (auctionItem) => {
   const allBids = await getBidsForItem(auctionItem.itemId);
-  console.warn("allBids", allBids);
   if (allBids && allBids.length) {
     allBids.sort((a, b) => b.bid - a.bid);
     auctionItem.currentBid = allBids[0].bid;
@@ -213,13 +212,10 @@ export const getAuctionItemDBInfo = async (auctionItem) => {
 export const getAuctionItemsWithBids = async () => {
   const settledAuctionItems = [];
   const mappedAuctionItems = allAuctionitems.map(async (auctionItem) => {
-    console.warn("something in here", { auctionItem });
     return await getAuctionItemDBInfo(auctionItem);
   });
   await Promise.allSettled(mappedAuctionItems).then((promises) => {
     promises.forEach((promise) => {
-      console.warn("something in here with a promise", { promise });
-
       settledAuctionItems.push(promise.value);
     });
   });

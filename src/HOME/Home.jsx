@@ -5,8 +5,15 @@ function Home() {
     <div className="home-page">
       <Link to="/shop">
         <h1>
-          FANCY PRONK <br></br>SILENT AUCTION
+          FANCY
+          <br />
+          PRONK
+          <br />
+          SILENT
+          <br />
+          AUCTION
         </h1>
+        <h3 className="click-to-enter">(click to enter)</h3>
       </Link>
     </div>
   );

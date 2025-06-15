@@ -1,5 +1,13 @@
 .home-page {
-  height: calc(100vh - 114px);
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.click-to-enter {
+  font-family: "Nunito", sans-serif;
+  color: lavenderblush;
+  text-align: center;
+  text-shadow: 0 0 5px black;
 }
