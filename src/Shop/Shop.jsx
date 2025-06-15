@@ -30,8 +30,16 @@ function Shop() {
         To place a bid on a silent auction item, please click through to the
         item page!
         <br />
+        <br />
         To check if you still have the high bid, refresh the page and see if
         your bid and nickname are displayed :)
+        <br />
+        <br />
+        Please note that, as is typical in an auction, the starting bids are
+        lower than market value. <br />
+        Each item has a reserve price that must be met in order to guarantee the
+        sale!
+        <br />
         <br />
         If you have any questions or if you&apos;d like to retract a bid, please
         send an email to{" "}

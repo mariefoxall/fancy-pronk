@@ -145,11 +145,14 @@ export default function ItemPage() {
             })}
           </div>
           <div>
-            <p>{currentItem.description}</p>
-            <p>
-              All pieces were made at Medalta in Medicine Hat Alberta during a
-              year-long artist residency from September 2024 to present.
-            </p>
+            {currentItem.description.map((descripSection, index) => {
+              return (
+                <div>
+                  <p key={index}>{descripSection}</p>
+                  <br />
+                </div>
+              );
+            })}
             <div className="bid-section">
               <div className="bid-info">
                 <p>Current bid: ${currentItem.currentBid}</p>
