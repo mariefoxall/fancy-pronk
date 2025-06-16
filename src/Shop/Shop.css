@@ -75,6 +75,11 @@ body {
     flex-direction: column;
   }
 }
+@media only screen and (max-width: 480px) {
+  .shop-page {
+    padding: 1rem;
+  }
+}
 
 #bid-form > input {
   font-size: 1.5rem;
@@ -105,5 +110,3 @@ body {
   border-radius: 8px;
   width: fit-content;
 }
-
-
