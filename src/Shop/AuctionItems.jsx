@@ -47,7 +47,7 @@ const littleMermaid = {
   itemName: "The Little Mermaid",
   description: [
     "A true to life sized representation of the white plastic VHS covers that Disney used to have in the nineties. Porcelain and one billion glazes, some rare earth colour changing glazes. Cone 6 Oxidation.",
-    "All pieces were made at Medalta in Medicine Hat Alberta during ayear-long artist residency from September 2024 to present.",
+    "All pieces were made at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present.",
   ],
   imgSrc: [mermaid1, mermaid2, mermaid3],
   altText: "Porcelain rendition of The Little Mermaid VHS cover",
@@ -60,7 +60,7 @@ const tunnel = {
   itemName: "The Tunnel of Love",
   description: [
     "A true to life sized Betty and Veronica digest, folded with a Lisa Frank ad on the back cover. Porcelain and one billion glazes, some rare earth colour changing glazes. Cone 6 Oxidation. ",
-    "All pieces were made at Medalta in Medicine Hat Alberta during ayear-long artist residency from September 2024 to present.",
+    "All pieces were made at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present.",
   ],
   imgSrc: [betty1, betty2, betty3, betty4],
   altText:
@@ -87,7 +87,7 @@ const terminator = {
   description: [
     "A true to life sized representation of Terminator on VHS, double sided.",
     "Porcelain and one billion glazes, some rare earth colour changing glazes. Cone 6 Oxidation. ",
-    "All pieces were made at Medalta in Medicine Hat Alberta during ayear-long artist residency from September 2024 to present.",
+    "All pieces were made at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present.",
   ],
   imgSrc: [term4, term1, term2, term3],
   altText: "Porcelain rendition of the classic Terminator film on VHS",
@@ -100,7 +100,7 @@ const heavyMetal = {
   itemName: "Heavy Metal VHS",
   description: [
     "A true to life sized representation of Heavy Metal on VHS. Porcelain and one billion glazes. Cone 6 Oxidation. ",
-    "All pieces were made at Medalta in Medicine Hat Alberta during ayear-long artist residency from September 2024 to present.",
+    "All pieces were made at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present.",
   ],
   imgSrc: [metal1, metal2, metal3],
   altText: "Porcelain rendition of the VHS film case of Heavy Metal",
