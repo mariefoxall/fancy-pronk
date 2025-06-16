@@ -47,6 +47,10 @@
     font-size: 1rem;
     height: 2.5rem;
   }
+
+  .auction-item-section {
+    width: 100%;
+  }
 }
 
 .winner {
