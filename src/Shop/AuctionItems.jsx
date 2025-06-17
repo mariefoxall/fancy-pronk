@@ -48,7 +48,7 @@ const littleMermaid = {
   description: [
     "A true to life sized representation of the white plastic VHS covers that Disney used to have in the nineties. Porcelain and one billion glazes, some rare earth colour changing glazes. Cone 6 Oxidation.",
     "All pieces were made at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present.",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [mermaid1, mermaid2, mermaid3],
   altText: "Porcelain rendition of The Little Mermaid VHS cover",
@@ -62,7 +62,7 @@ const tunnel = {
   description: [
     "A true to life sized Betty and Veronica digest, folded with a Lisa Frank ad on the back cover. Porcelain and one billion glazes, some rare earth colour changing glazes. Cone 6 Oxidation. ",
     "All pieces were made at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present.",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [betty1, betty2, betty3, betty4],
   altText:
@@ -77,7 +77,7 @@ const peeledLemon = {
   description: [
     "A life sized peeled lemon. This piece was atmospherically fired in the gas reduction salt kiln at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present. ",
     "This lemon has no glaze and was made using nerikomi techniques with coloured clay. The firing process makes a glazed surface with singular results. Porcelain, stains and oxides. Reduction salt fired, cone 10. Sculptural nerikomi pieces, especially fired in the atmospheric kilns may have small cracks and imperfections that are to be embraced. ",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [lemon1, lemon2, lemon3],
   altText: "Porcelain sculpture of a peeled lemon",
@@ -91,7 +91,7 @@ const terminator = {
     "A true to life sized representation of Terminator on VHS, double sided.",
     "Porcelain and one billion glazes, some rare earth colour changing glazes. Cone 6 Oxidation. ",
     "All pieces were made at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present.",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [term4, term1, term2, term3],
   altText: "Porcelain rendition of the classic Terminator film on VHS",
@@ -105,7 +105,7 @@ const heavyMetal = {
   description: [
     "A true to life sized representation of Heavy Metal on VHS. Porcelain and one billion glazes. Cone 6 Oxidation. ",
     "All pieces were made at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present.",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [metal1, metal2, metal3],
   altText: "Porcelain rendition of the VHS film case of Heavy Metal",
@@ -119,7 +119,7 @@ const oyster = {
   description: [
     "A life sized BC Oyster (BC because it's pretty big). This piece was atmospherically fired in the gas reduction salt kiln at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present.",
     " This oyster has no glaze and was made using nerikomi techniques with coloured clay. The firing process makes a glazed surface with singular results. Porcelain, stains and oxides. Reduction salt fired, cone 10. Sculptural nerikomi pieces, especially fired in the atmospheric kilns may have small cracks and imperfections that are to be embraced.",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [oyster5, oyster1, oyster2, oyster3, oyster4, oyster6],
   altText: "life-sized porcelain oyster with nerikomi detailing",
@@ -133,7 +133,7 @@ const pomegranate = {
     "A life sized Pomegranate half. This piece was atmospherically fired in the gas reduction salt kiln at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present.",
     " This piece has no glaze and was made using nerikomi techniques with coloured clay. The firing process makes a glazed surface with singular results. Porcelain, stains and oxides. Reduction salt fired, cone 10. ",
     "Sculptural nerikomi pieces, especially fired in the atmospheric kilns may have small cracks and imperfections that are to be embraced. ",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [pomegranate2, pomegranate1],
   altText: "life-sized porcelain half-pomegranate with nerikomi detailing",
@@ -147,7 +147,7 @@ const boot = {
     "A size 8 nerikomi Doc Martin boot. This piece was atmospherically fired in the gas reduction salt kiln at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present. ",
     "This boot has no glaze and was made using repeating pattern nerikomi cane with coloured clay. The firing process makes a glazed surface with singular results. Porcelaneous stoneware, stains and oxides. Reduction salt fired, cone 10. ",
     "Sculptural nerikomi pieces, especially fired in the atmospheric kilns may have small cracks and imperfections that are to be embraced. This piece specifically has a large crack (shown in photos) that is mostly on the bottom of the piece and has been priced accordingly.",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [boot1, boot2, boot3, boot4, boot5, boot6],
   altText: "Life-size porcelain Doc Marten boot with nerikomi detailing",
@@ -160,7 +160,7 @@ const chainKeys = {
   description: [
     'A key chain with a 14" chain and bull clip. There are two house keys and one bike lock key. ',
     "This piece was atmospherically fired in the gas reduction salt kiln at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present. This keychain has no glaze and was made using nerikomi techniques with coloured clay. The firing process makes a glazed surface with singular results. Porcelain, stains and oxides. Reduction salt fired, cone 10. Sculptural nerikomi pieces, especially fired in the atmospheric kilns may have small cracks and imperfections that are to be embraced.",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [chainKeys1, chainKeys2],
   altText:
@@ -176,7 +176,7 @@ const grapes = {
     'A large bunch of grapes approx 8"x5"x5". This piece was atmospherically fired in the gas reduction salt kiln at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present. ',
     "These stripey grapes have no glaze and were made using nerikomi techniques with coloured clay. The firing process makes a glazed surface with singular results. Porcelain, stains and oxides. Reduction salt fired, cone 10. ",
     "Sculptural nerikomi pieces, especially fired in the atmospheric kilns may have small cracks and imperfections that are to be embraced. ",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [grapes1, grapes2],
   altText: "Porcelain bunch of grapes with nerikomi detailing",
@@ -190,7 +190,7 @@ const matches = {
   description: [
     "A life sized book of matches using nerikomi cane pattern and reactive colour with tiny matches inside. This piece was atmospherically fired in the gas reduction salt kiln at Medalta in Medicine Hat Alberta during a year-long artist residency from September 2024 to present. ",
     "This matchbook has no glaze and was made using nerikomi techniques with coloured clay. The firing process makes a glazed surface with singular results. Porcelain, stains and oxides. Reduction salt fired, cone 10. Sculptural nerikomi pieces, especially fired in the atmospheric kilns may have small cracks and imperfections that are to be embraced. ",
-    "This piece ships after July 12th, as it is part of a current exhibition",
+    "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
   imgSrc: [matches1, matches2, matches3],
   altText: "Porcelain life-sized book of matches with nerikomi detailing",
