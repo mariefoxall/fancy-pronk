@@ -15,9 +15,6 @@ import term4 from "../assets/term-4.jpg";
 import metal1 from "../assets/metal.jpg";
 import metal2 from "../assets/metal-2.jpg";
 import metal3 from "../assets/metal-3.jpg";
-import oyster1 from "../assets/oyster.jpg";
-import oyster2 from "../assets/oyster-2.jpg";
-import oyster3 from "../assets/oyster-3.jpg";
 import oyster4 from "../assets/oyster-full.jpg";
 import oyster5 from "../assets/oyster-full2.jpg";
 import oyster6 from "../assets/oyster-full-3.jpg";
@@ -121,7 +118,7 @@ const oyster = {
     " This oyster has no glaze and was made using nerikomi techniques with coloured clay. The firing process makes a glazed surface with singular results. Porcelain, stains and oxides. Reduction salt fired, cone 10. Sculptural nerikomi pieces, especially fired in the atmospheric kilns may have small cracks and imperfections that are to be embraced.",
     "This piece ships after July 12th, as it is part of a current exhibition.",
   ],
-  imgSrc: [oyster5, oyster1, oyster2, oyster3, oyster4, oyster6],
+  imgSrc: [oyster5, oyster4, oyster6],
   altText: "life-sized porcelain oyster with nerikomi detailing",
 };
 const pomegranate = {
