@@ -160,6 +160,9 @@ export default function ItemPage() {
                   <p className="bid-winner">({currentItem.currentWinner})</p>
                 )}
               </div>
+              <p className="bid-instruction">
+                New bids must be at least $10 higher than the current bid.
+              </p>
               <p>
                 Your bid: ${" "}
                 <input
@@ -175,7 +178,7 @@ export default function ItemPage() {
               </p>
               {error && (
                 <p className="bid-error">
-                  Oops! Please enter a minimum bid of{" "}
+                  Oops! Please enter a minimum bid of ${" "}
                   {currentItem.currentBid + currentItem.incrementValue}
                 </p>
               )}{" "}
