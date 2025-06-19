@@ -95,12 +95,13 @@ export default function ItemPage() {
   const handleBidChange = (event) => {
     setSuccess(false);
     const { value } = event.target;
+    const bidValue = Number(value);
 
     if (
-      value > currentItem.currentBid + currentItem.incrementValue &&
-      value > 0
+      bidValue >= currentItem.currentBid + currentItem.incrementValue &&
+      bidValue > 0
     ) {
-      setBid(Number(value));
+      setBid(bidValue);
     }
   };
 
