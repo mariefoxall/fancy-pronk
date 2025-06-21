@@ -23,8 +23,14 @@ function Shop() {
     <div className="shop-page">
       <h2>FANCY PRONK</h2>
       <h2>Silent Auction</h2>
+      <div className="form-description">
+        <h3>Bids are now closed!</h3>
+        <p>Winners will be contacted via email.</p>
+        <br />
+        <p>Thanks for participating in the auction :)</p>
+      </div>
 
-      <h3>Bids close at 2pm EST Saturday, June 21</h3>
+      {/* <h3>Bids close at 2pm EST Saturday, June 21</h3>
       <p className="form-description" id="form-description">
         To place a bid on a silent auction item, please click through to the
         item page!
@@ -52,7 +58,7 @@ function Shop() {
           auctionItems.map((item) => {
             return <ItemPreview key={item.itemId} item={item} />;
           })}
-      </div>
+      </div> */}
     </div>
   );
 }
